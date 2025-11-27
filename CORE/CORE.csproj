@@ -1,17 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-    <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>disable</Nullable>
-    </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
 
-    <ItemGroup>
-      <PackageReference Include="FluentValidation" Version="12.1.0" />
-      <PackageReference Include="MediatR" Version="13.1.0" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.21" />
-      <PackageReference Include="System.Data.SQLite.Core" Version="1.0.119" />
-    </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.19" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.19" />
+  </ItemGroup>
 
-    
 </Project>
