@@ -5,7 +5,7 @@ using Users.APP.Domain;
 
 namespace Users.APP.Features;
 
-public class GroupQueryHandler : Request, IRequest<IQueryable<GroupQueryResponse>>
+public class GroupQueryRequest : Request, IRequest<IQueryable<GroupQueryResponse>>
 {
 }
 public class GroupQueryResponse : Response
