@@ -1,6 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using CORE.Domain;
+using CORE.APP.Domain;
+
 
 namespace Users.APP.Domain;
 

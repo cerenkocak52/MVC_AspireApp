@@ -1,5 +1,5 @@
-using CORE.Models;
-using CORE.Services;
+using CORE.APP.Models;
+using CORE.APP.Services;
 using MediatR;
 using Users.APP.Domain;
 

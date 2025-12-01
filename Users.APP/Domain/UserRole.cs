@@ -1,4 +1,5 @@
-using CORE.Domain;
+using CORE.APP.Domain;
+
 
 namespace Users.APP.Domain;
 

@@ -1,5 +1,3 @@
-using CORE.Domain;
-
 namespace Users.APP.Domain;
 
 public enum Genders 
