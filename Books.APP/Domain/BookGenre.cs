@@ -1,12 +1,12 @@
-using CORE.APP.Domain;
-
-namespace Books.APP.Domain;
-
-public class BookGenre : Entity
+namespace Books.APP.Domain
 {
-    public int BookId { get; set; }
-    public Book Book { get; set; }
+    // Join table between Book and Genre
+    public class BookGenre
+    {
+        public int BookId { get; set; }
+        public Book Book { get; set; } = default!;
 
-    public int GenreId { get; set; }
-    public Genre Genre { get; set; }
+        public int GenreId { get; set; }
+        public Genre Genre { get; set; } = default!;
+    }
 }
